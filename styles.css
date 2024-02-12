@@ -1,0 +1,45 @@
+body {
+    margin: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: space-around;
+    text-align: center;
+    
+    color: #2b2839;
+    background: #29bf12;
+    border-bottom: 6px solid #f58b13;
+    border-radius: 20px;
+
+    text-shadow: 2px 2px 4px white;
+
+    animation: nameDerAnimation 3s;
+} 
+
+
+h3:hover {
+    color: aqua;
+}
+
+.card:hover{
+    background-color: #f58b13;
+    border-bottom: 6px solid  #29bf12;
+}
+
+img:hover{
+    border: 2px solid aqua;
+}
+
+@keyframes nameDerAnimation {
+    from {background-color: rgb(11, 235, 11);}
+    to {background-color: yellow;}
+  }
